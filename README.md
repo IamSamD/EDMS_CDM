@@ -37,3 +37,20 @@ This is the pipleine template to be used when setting up cdm for a new client. I
 https://github.com/IamSamD/cdm_check_template
 
 The cdm_check_template repo holds the tempalte for a new CDM check and is used by the cdm-cli to scaffold a new check in the cdm-checks repo.
+
+## Developing with GitHub Copilot
+
+To assist with development, a comprehensive instructions file has been created: `copilot-instructions.md`.
+
+When working with GitHub Copilot in this workspace, you can reference this file to give the AI agent full context of the system architecture, workflows, and coding standards.
+
+**Setup for Automatic Context:**
+To make these instructions automatically available to Copilot without manual referencing:
+1.  Create a `.github` directory in the root of your repository (if it doesn't exist).
+2.  Move or copy `copilot-instructions.md` into that directory.
+    *   Path: `.github/copilot-instructions.md`
+3.  Copilot will now automatically read this file for context in every interaction.
+
+**Manual Usage:**
+1.  Open `copilot-instructions.md` in your editor or add it to the Copilot context.
+2.  Ask Copilot to "Read the CDM instructions to understand how to add a new check" or "Explain the data flow based on the instructions".
